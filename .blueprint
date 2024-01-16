@@ -1,0 +1,6 @@
+created:
+    - database/factories/EventFactory.php
+    - database/migrations/2023_11_23_020108_create_events_table.php
+    - app/Models/Event.php
+models:
+    Event: { title: 'string:400', speaker: 'string:400', description: longtext, slides: longtext, event_date: timestamp }

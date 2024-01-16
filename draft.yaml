@@ -1,0 +1,9 @@
+models:
+  Event:
+    title: string:400
+    speaker: string:400
+    speaker_image: text
+    cover_image: text
+    description: longtext
+    slides: longtext nullable
+    event_date: timestamp
